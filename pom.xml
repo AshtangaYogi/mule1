@@ -28,6 +28,32 @@
 				<configuration>
 				</configuration>
 			</plugin>
+			<plugin>
+        <groupId>org.mule.tools.maven</groupId>
+        <artifactId>mule-maven-plugin</artifactId>
+        <configuration>
+          <deploymentType>cloudhub</deploymentType>
+          <muleVersion>${app.runtime}</muleVersion> 
+          <username>jylam</username> 
+          <password>Saibaba12</password> 
+          <applicationName>cicd</applicationName>
+          <environment>Sandbox</environment> 
+          <businessGroup>mst</businessGroup>
+          <region>us-e2</region>
+          <uri>https://anypoint.mulesoft.com</uri> 
+          <workerType>Micro</workerType>
+          <workers>1</workers>
+        </configuration>
+        <executions>
+          <execution>
+            <id>deploy</id>
+            <phase>deploy</phase>
+            <goals>
+              <goal>deploy</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
 		</plugins>
 	</build>
 
