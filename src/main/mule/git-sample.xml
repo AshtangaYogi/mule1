@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="git-sampleFlow" doc:id="6855db24-0cbe-4c44-8cf1-bb180617a1fb" >
 		<http:listener doc:name="Listener" doc:id="5ef124ea-3a63-4a07-9992-8d6f3d1e168f" config-ref="HTTP_Listener_config" path="/greet"/>
-		<set-payload value='"Success here..."' doc:name="Set Payload" doc:id="7f548b13-36c5-4850-bc57-772178e6343d" />
+		<set-payload value='"Success here...Yooooooo"' doc:name="Set Payload" doc:id="7f548b13-36c5-4850-bc57-772178e6343d" />
 	</flow>
 </mule>
