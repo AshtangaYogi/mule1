@@ -36,7 +36,7 @@
           <muleVersion>${app.runtime}</muleVersion> 
           <username>jylam</username> 
           <password>Saibaba12</password> 
-          <applicationName>git-sample</applicationName>
+          <applicationName>cicd</applicationName>
           <environment>Sandbox</environment> 
           <businessGroup>mst</businessGroup>
           <!--  <region>us-e2</region> -->
