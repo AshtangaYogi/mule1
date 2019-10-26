@@ -39,7 +39,7 @@
           <applicationName>git-sample</applicationName>
           <environment>Sandbox</environment> 
           <businessGroup>mst</businessGroup>
-          <region>us-e2</region>
+          <!--  <region>us-e2</region> -->
           <uri>https://anypoint.mulesoft.com</uri> 
           <workerType>Micro</workerType>
           <workers>1</workers>
