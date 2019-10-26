@@ -32,7 +32,7 @@
         <groupId>org.mule.tools.maven</groupId>
         <artifactId>mule-maven-plugin</artifactId>
         <configuration>
-          <cloudHubDeploymemnt>
+          <cloudHubDeployment>
           <muleVersion>${app.runtime}</muleVersion> 
           <username>jylam</username> 
           <password>Saibaba12</password> 
@@ -43,7 +43,7 @@
           <uri>https://anypoint.mulesoft.com</uri> 
           <workerType>Micro</workerType>
           <workers>1</workers>
-          </cloudHubDeploymemnt>
+          </cloudHubDeployment>
         </configuration>
         <executions>
           <execution>
